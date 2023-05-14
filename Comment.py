@@ -5,7 +5,7 @@ class Comment:
         self.dislikes = down;
         self.is_flagged = flagged
 
-    def print_info(self):
+    def print_info(self):   
         print("Comment: %s" % self.text)
         print("Likes: %d, Dislikes: %d, Is Flagged: %s\n" % (self.likes,self.dislikes,self.is_flagged))
 
